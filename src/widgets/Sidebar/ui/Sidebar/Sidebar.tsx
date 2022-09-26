@@ -9,7 +9,7 @@ interface SidebarProps {
   className?: string;
 }
 
-export const Sidebar = ({ className }:SidebarProps) => {
+export const Sidebar = ({ className }: SidebarProps) => {
   const [collapsed, setCollapsed] = useState(false);
 
   const onToggle = () => {
@@ -17,7 +17,12 @@ export const Sidebar = ({ className }:SidebarProps) => {
   };
 
   return (
-    <div className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [className])}>
+    <div className={classNames(
+      cls.Sidebar,
+      { [cls.collapsed]: collapsed },
+      [className],
+    )}
+    >
       <Button onClick={onToggle}>Toggle</Button>
       <div className={cls.switchers}>
         <ThemeSwitcher />
