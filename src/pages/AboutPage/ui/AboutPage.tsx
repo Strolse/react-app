@@ -1,4 +1,4 @@
-import React from 'react';
+import { NotFoundPage } from 'pages/NotFoundPage/ui/NotFoundPage';
 import { useTranslation } from 'react-i18next';
 
 const AboutPage = () => {
