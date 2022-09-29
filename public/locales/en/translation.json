@@ -1,4 +1,7 @@
 {
+  "Выдать ошибку": "Throw error",
+  "Обновить страницу": "Update page",
+  "Произошла непредвиденная ошибка": "An unexpected error has occurred",
   "Страница не найдена": "Page not found",
   "Язык": "English"
 }
