@@ -45,4 +45,3 @@ SecondaryDark.args = {
   children: 'Link',
 };
 SecondaryDark.decorators = [ThemeDecorator(Theme.DARK)];
-

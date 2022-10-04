@@ -4,7 +4,6 @@ import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDeco
 import { Theme } from 'app/providers/ThemeProvider';
 import { Button, ThemeButton } from './Button';
 
-
 export default {
   title: 'shared/Button',
   component: Button,
@@ -40,4 +39,3 @@ OutlineDark.args = {
   theme: ThemeButton.OUTLINE,
 };
 OutlineDark.decorators = [ThemeDecorator(Theme.DARK)];
-
