@@ -4,6 +4,7 @@ import cls from './Button.module.scss';
 
 export enum ButtonTheme {
   CLEAR = 'clear',
+  CLEAR_INVERTED = 'clearInverted',
   OUTLINE = 'outline',
   BACKGROUND = 'background',
   BACKGROUND_INVERTED = 'backgroundInverted',
@@ -32,7 +33,7 @@ export const Button: FC<ButtonProps> = (props) => {
     ...otherProps
   } = props;
 
-  const mods = {
+  const mods: Record<string, boolean> = {
     [cls.square]: square,
   };
 
