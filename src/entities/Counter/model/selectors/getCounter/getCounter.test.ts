@@ -10,4 +10,3 @@ describe('getCounter', () => {
     expect(getCounter(state as StateShema)).toEqual({ value: 10 });
   });
 });
-
