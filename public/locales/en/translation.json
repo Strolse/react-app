@@ -2,7 +2,9 @@
   "Введите username": "Enter your username",
   "Введите пароль": "Enter your password",
   "Войти": "Log in",
+  "Вы ввели неверный логин или пароль": "Invalid username or password",
   "Выдать ошибку": "Throw error",
+  "Выйти": "Log out",
   "Короткий язык": "En",
   "Обновить страницу": "Update page",
   "Переключить": "Toggle",
@@ -10,5 +12,6 @@
   "Страница не найдена": "Page not found",
   "Увеличить": "Increment",
   "Уменьшить": "Decrement",
+  "Форма авторизации": "Authorization form",
   "Язык": "English"
 }
