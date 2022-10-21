@@ -21,7 +21,7 @@ export const loginByUsername = createAsyncThunk<User, LoginByUsernameProps, {rej
 
       return response.data;
     } catch (err) {
-      return thunkAPI.rejectWithValue('Вы ввели неверный логин или пароль');
+      return thunkAPI.rejectWithValue('error');
     }
   },
 );
