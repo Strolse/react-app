@@ -31,6 +31,13 @@
     }
   ],
   "profile": {
-    "name": "typicode"
+    "first": "Olga",
+    "lastname": "Str",
+    "age": 31,
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Saint-Petersburg",
+    "username": "admin",
+    "avatar":"no"    
   }
 }
