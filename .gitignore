@@ -2,5 +2,6 @@
 node_modules
 .vscode
 /storybook-static
+/extractedTranslations
 .loki/report.html
 .loki/report.json

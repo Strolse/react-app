@@ -34,7 +34,6 @@ export const loginSlice = createSlice({
           state.error = action.payload;
         });
     },
-
 });
 
 // Action creators are generated for each case reducer function

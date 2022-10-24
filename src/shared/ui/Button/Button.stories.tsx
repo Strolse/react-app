@@ -19,6 +19,7 @@ export const Primary = Template.bind({});
 
 Primary.args = {
   children: 'Text',
+  theme: ButtonTheme.PRIMARY,
 };
 
 export const Clear = Template.bind({});
