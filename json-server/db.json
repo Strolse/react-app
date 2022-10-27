@@ -31,13 +31,13 @@
     }
   ],
   "profile": {
-    "first": "Olga",
-    "lastname": "Str",
+    "first": "Ольга",
+    "lastname": "Стрек",
     "age": 31,
-    "currency": "RUB",
-    "country": "Russia",
+    "currency": "EUR",
+    "country": "Armenia",
     "city": "Saint-Petersburg",
     "username": "admin",
-    "avatar":"no"    
+    "avatar": "https://bumper-stickers.ru/33977-thickbox_default/chelovechek-v-jeltoy-odejde.jpg"
   }
 }

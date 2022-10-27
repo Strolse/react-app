@@ -1,6 +1,14 @@
 {
+  "Ваш возраст": "Your age",
   "Ваша фамилия": "Your surname",
   "Ваше имя": "Your name",
+  "Введите имя пользователя": "Enter the user name",
+  "Введите ссылку на аватар": "Enter the link to the avatar",
+  "Город": "City",
+  "Отменить": "Cancel",
+  "Попробуйте обновить страницу": "Try refreshing the page.",
+  "Произошла ошибка при загрузке профиля": "An error occurred while loading the profile.",
   "Профиль": "Profile",
-  "Редактировать": "Edit"
+  "Редактировать": "Edit",
+  "Сохранить": "Save"
 }
