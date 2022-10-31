@@ -5,10 +5,15 @@
   "Введите имя пользователя": "Enter the user name",
   "Введите ссылку на аватар": "Enter the link to the avatar",
   "Город": "City",
+  "Данные не указаны": "Data is not specified",
+  "Имя и фамилия обязательны": "First and last name are required",
+  "Некорректный возраст": "Incorrect age",
   "Отменить": "Cancel",
+  "Ошибка сервера при сохранении данных": "Server error when saving data",
   "Попробуйте обновить страницу": "Try refreshing the page.",
   "Произошла ошибка при загрузке профиля": "An error occurred while loading the profile.",
   "Профиль": "Profile",
   "Редактировать": "Edit",
-  "Сохранить": "Save"
+  "Сохранить": "Save",
+  "Укажите страну": "Select the country"
 }
