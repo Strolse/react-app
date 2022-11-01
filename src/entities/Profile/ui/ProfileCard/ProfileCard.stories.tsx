@@ -2,10 +2,8 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
-import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator';
 import { Country } from 'entities/Country';
 import { Currency } from 'entities/Currency';
-import Avatar from 'shared/assets/tests/storybook.jpg';
 import { ProfileCard } from './ProfileCard';
 
 export default {
@@ -29,7 +27,7 @@ Primary.args = {
     city: 'Москва',
     username: 'admin',
     currency: Currency.RUB,
-    avatar: Avatar,
+    avatar: 'https://wp-s.ru/wallpapers/12/12/372677389259771/logotip-vzglyad-devushki.jpg',
   },
 };
 
@@ -42,8 +40,6 @@ export const Loading = Template.bind({});
 Loading.args = {
   isLoading: true,
 };
-Loading.decorators = [StoreDecorator({
-})];
 
 export const PrimaryDark = Template.bind({});
 PrimaryDark.args = {
@@ -55,8 +51,7 @@ PrimaryDark.args = {
     city: 'Москва',
     username: 'admin',
     currency: Currency.RUB,
-    avatar: Avatar,
+    avatar: 'https://wp-s.ru/wallpapers/12/12/372677389259771/logotip-vzglyad-devushki.jpg',
   },
 };
-PrimaryDark.decorators = [ThemeDecorator(Theme.DARK), StoreDecorator({
-})];
+PrimaryDark.decorators = [ThemeDecorator(Theme.DARK)];
