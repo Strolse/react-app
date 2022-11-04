@@ -5,3 +5,4 @@ node_modules
 /extractedTranslations
 .loki/report.html
 .loki/report.json
+/.fttemplates
