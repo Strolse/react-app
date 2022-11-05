@@ -1,4 +1,6 @@
 {
+  "Произошла ошибка при загрузке статьи": "An error occurred while loading the article.",
   "Статьи": "ArticlesPage",
-  "Статья": "ArticleDetailsPage"
+  "Статья": "ArticleDetailsPage",
+  "Статья не найдена": "The article was not found."
 }
