@@ -112,13 +112,15 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": "ADMIN"
+      "role": "ADMIN",
+      "avatar": "https://wp-s.ru/wallpapers/12/12/372677389259771/logotip-vzglyad-devushki.jpg"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "role": "USER"
+      "role": "USER",
+      "avatar": "https://bumper-stickers.ru/33977-thickbox_default/chelovechek-v-jeltoy-odejde.jpg"
     }
   ],
   "profile": {
