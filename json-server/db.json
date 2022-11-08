@@ -24,7 +24,9 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "26.02.2022",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -98,13 +100,61 @@
       "id": "2",
       "text": "some comment 2",
       "articleId": "1",
-      "userId": "1"
+      "userId": "2"
     },
     {
       "id": "3",
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "888",
+      "id": "T4PJ-DP"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "7000",
+      "id": "pNrkPIt"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "rrr",
+      "id": "GExfUt9"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "Хорошая статья!",
+      "id": "r-_m4sx"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "1",
+      "id": "hpAlAM2"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "Отлично",
+      "id": "Qe7vUK9"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "Урра",
+      "id": "To1AHwt"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "22",
+      "id": "c2SAdoC"
     }
   ],
   "users": [
@@ -123,14 +173,28 @@
       "avatar": "https://bumper-stickers.ru/33977-thickbox_default/chelovechek-v-jeltoy-odejde.jpg"
     }
   ],
-  "profile": {
-    "first": "Ольга",
-    "lastname": "Стрек",
-    "age": 31,
-    "currency": "EUR",
-    "country": "Armenia",
-    "city": "Saint-Petersburg",
-    "username": "admin",
-    "avatar": "https://bumper-stickers.ru/33977-thickbox_default/chelovechek-v-jeltoy-odejde.jpg"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Ольга",
+      "lastname": "Стрек",
+      "age": 31,
+      "currency": "EUR",
+      "country": "Armenia",
+      "city": "Saint-Petersburg",
+      "username": "admin",
+      "avatar": "https://wp-s.ru/wallpapers/12/12/372677389259771/logotip-vzglyad-devushki.jpg"
+    },
+    {
+      "id": "2",
+      "first": "Олег",
+      "lastname": "Стрек",
+      "age": 46,
+      "currency": "EUR",
+      "country": "Armenia",
+      "city": "Saint-Petersburg",
+      "username": "user",
+      "avatar": "https://bumper-stickers.ru/33977-thickbox_default/chelovechek-v-jeltoy-odejde.jpg"
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 {
   "Введите username": "Enter your username",
   "Введите пароль": "Enter your password",
+  "Введите текст комментария": "Enter the comment text",
   "Войти": "Log in",
   "Вы ввели неверный логин или пароль": "Invalid username or password",
   "Выдать ошибку": "Throw error",
@@ -8,6 +9,7 @@
   "Комментарии отсутствуют": "No comments",
   "Короткий язык": "En",
   "Обновить страницу": "Update page",
+  "Отправить": "Send",
   "Переключить": "Toggle",
   "Произошла непредвиденная ошибка": "An unexpected error has occurred",
   "Страница не найдена": "Page not found",

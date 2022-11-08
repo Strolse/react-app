@@ -12,6 +12,7 @@ const data = {
   city: 'Москва',
   username: 'admin',
   currency: Currency.RUB,
+  id: '1',
 };
 
 describe('updateProfileData', () => {
