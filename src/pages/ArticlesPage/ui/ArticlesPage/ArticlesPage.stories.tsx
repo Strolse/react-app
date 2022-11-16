@@ -19,4 +19,12 @@ export const Primary = Template.bind({});
 
 Primary.args = {};
 Primary.decorators = [StoreDecorator({
+  articlesPage: {
+    ids: [],
+    entities: {},
+    isLoading: false,
+    hasMore: false,
+    limit: 5,
+    page: 1,
+  },
 })];

@@ -39,6 +39,7 @@ export const ArticleViewSelector = memo((props:ArticleViewSelectorProps) => {
         <Button
           theme={ButtonTheme.CLEAR}
           onClick={onCLick(viewType.view)}
+          key={viewType.view}
         >
           <Icon
             className={classNames('', { [cls.notSelected]: viewType.view !== view }, [])}
