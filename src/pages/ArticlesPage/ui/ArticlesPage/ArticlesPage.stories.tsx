@@ -27,4 +27,7 @@ Primary.decorators = [StoreDecorator({
     limit: 5,
     page: 1,
   },
+  scrollRestoration: {
+    scroll: {},
+  },
 })];

@@ -8,12 +8,14 @@ import { ProfileSchema } from 'entities/Profile';
 import { UserSchema } from 'entities/User';
 import { AddCommentFormSchema } from 'features/addCommentForm';
 import { LoginSchema } from 'features/AuthByUsername';
+import { ScrollRestorationSchema } from 'features/ScrollRestoration';
 import { ArticleDetailsCommentsSchema } from 'pages/ArticleDetailsPage';
 import { articlesPageSchema } from 'pages/ArticlesPage';
 
 export interface StateSchema {
   counter: CounterSchema;
   user: UserSchema;
+  scrollRestoration: ScrollRestorationSchema;
 
   // Асинхронные редюсеры
   loginForm?: LoginSchema;
