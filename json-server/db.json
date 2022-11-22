@@ -139,11 +139,11 @@
     },
     {
       "id": "4",
-      "title": "Javascript news",
+      "title": "About Javascript ",
       "subtitle": "Что нового в JS за 2022 год?",
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 1025,
+      "createdAt": "26.01.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -179,11 +179,11 @@
     },
     {
       "id": "5",
-      "title": "Python news",
+      "title": "About Python",
       "subtitle": "Что нового в Python за 2022 год?",
       "img": "https://itcube.nntc.nnov.ru/wp-content/uploads/2021/08/fryjfj.png",
-      "views": 922,
-      "createdAt": "27.05.2022",
+      "views": 92,
+      "createdAt": "28.07.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -219,11 +219,11 @@
     },
     {
       "id": "6",
-      "title": "Kotlin news",
+      "title": "About Kotlin",
       "subtitle": "Что нового в Kotlin за 2022 год?",
       "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
-      "views": 722,
-      "createdAt": "29.05.2022",
+      "views": 762,
+      "createdAt": "29.03.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -259,11 +259,11 @@
     },
     {
       "id": "7",
-      "title": "Javascript news",
+      "title": "Again Javascript",
       "subtitle": "Что нового в JS за 2022 год?",
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 3022,
+      "createdAt": "26.02.2021",
       "userId": "1",
       "type": [
         "IT"
@@ -299,11 +299,11 @@
     },
     {
       "id": "8",
-      "title": "Python news",
-      "subtitle": "Что нового в Python за 2022 год?",
+      "title": "Welcome to Python",
+      "subtitle": "Что нового в Python за 2020 год?",
       "img": "https://itcube.nntc.nnov.ru/wp-content/uploads/2021/08/fryjfj.png",
-      "views": 922,
-      "createdAt": "27.05.2022",
+      "views": 1922,
+      "createdAt": "27.05.2020",
       "userId": "1",
       "type": [
         "IT"
@@ -339,11 +339,11 @@
     },
     {
       "id": "9",
-      "title": "Kotlin news",
-      "subtitle": "Что нового в Kotlin за 2022 год?",
+      "title": "Why Kotlin?",
+      "subtitle": "Что нового в Kotlin за 2020 год?",
       "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
-      "views": 722,
-      "createdAt": "29.05.2022",
+      "views": 2822,
+      "createdAt": "29.01.2021",
       "userId": "1",
       "type": [
         "IT"
@@ -379,11 +379,11 @@
     },
     {
       "id": "10",
-      "title": "Javascript news",
+      "title": "Why Javascript?",
       "subtitle": "Что нового в JS за 2022 год?",
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 122,
+      "createdAt": "26.10.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -419,11 +419,11 @@
     },
     {
       "id": "11",
-      "title": "Python news",
+      "title": "Why Python",
       "subtitle": "Что нового в Python за 2022 год?",
       "img": "https://itcube.nntc.nnov.ru/wp-content/uploads/2021/08/fryjfj.png",
-      "views": 922,
-      "createdAt": "27.05.2022",
+      "views": 292,
+      "createdAt": "27.09.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -459,11 +459,11 @@
     },
     {
       "id": "12",
-      "title": "Kotlin news",
+      "title": "What Kotlin",
       "subtitle": "Что нового в Kotlin за 2022 год?",
       "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
-      "views": 722,
-      "createdAt": "29.05.2022",
+      "views": 2723,
+      "createdAt": "29.05.2021",
       "userId": "1",
       "type": [
         "IT"
@@ -499,11 +499,11 @@
     },
     {
       "id": "13",
-      "title": "Javascript news",
+      "title": "Only Javascript news",
       "subtitle": "Что нового в JS за 2022 год?",
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 982,
+      "createdAt": "02.07.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -539,11 +539,11 @@
     },
     {
       "id": "14",
-      "title": "Python news",
+      "title": "Good Python news",
       "subtitle": "Что нового в Python за 2022 год?",
       "img": "https://itcube.nntc.nnov.ru/wp-content/uploads/2021/08/fryjfj.png",
-      "views": 922,
-      "createdAt": "27.05.2022",
+      "views": 962,
+      "createdAt": "27.03.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -579,14 +579,94 @@
     },
     {
       "id": "15",
-      "title": "Kotlin news",
+      "title": "Fine Kotlin news",
       "subtitle": "Что нового в Kotlin за 2022 год?",
       "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
-      "views": 722,
-      "createdAt": "29.05.2022",
+      "views": 1722,
+      "createdAt": "19.05.2021",
       "userId": "1",
       "type": [
         "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Fine economic news",
+      "subtitle": "Что нового в экономике за 2022 год?",
+      "img": "https://www.mirea.ru/upload/iblock/7cf/vvp_rf2018_1.jpg",
+      "views": 1722,
+      "createdAt": "19.11.2022",
+      "userId": "1",
+      "type": [
+        "ECONOMICS"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Fine science news",
+      "subtitle": "Что нового в науке за 2022 год?",
+      "img": "https://mag.shkolamoskva.ru/wp-content/uploads/2019/04/engagementresearchproposals-e1554718902805.jpeg",
+      "views": 722,
+      "createdAt": "22.11.2022",
+      "userId": "1",
+      "type": [
+        "SCIENCE"
       ],
       "blocks": [
         {
