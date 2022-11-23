@@ -9,8 +9,10 @@ import { UserSchema } from 'entities/User';
 import { AddCommentFormSchema } from 'features/addCommentForm';
 import { LoginSchema } from 'features/AuthByUsername';
 import { ScrollRestorationSchema } from 'features/ScrollRestoration';
-import { ArticleDetailsCommentsSchema } from 'pages/ArticleDetailsPage';
-import { articlesPageSchema } from 'pages/ArticlesPage';
+import {
+  ArticleDetailsPageSchema,
+} from 'pages/ArticleDetailsPage';
+import { articlesPageSchema as ArticlesPageSchema } from 'pages/ArticlesPage';
 
 export interface StateSchema {
   counter: CounterSchema;
@@ -21,9 +23,9 @@ export interface StateSchema {
   loginForm?: LoginSchema;
   profile?: ProfileSchema;
   articleDetails?: ArticleDetailsSchema;
-  articleDetailsComments?: ArticleDetailsCommentsSchema;
   addCommentForm?: AddCommentFormSchema;
-  articlesPage?: articlesPageSchema;
+  articlesPage?: ArticlesPageSchema;
+  articlesDetailsPage?: ArticleDetailsPageSchema;
 }
 
 export type StateSchemaKey = keyof StateSchema;

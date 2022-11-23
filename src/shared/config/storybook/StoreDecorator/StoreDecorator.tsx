@@ -5,7 +5,7 @@ import { profileReducer } from 'entities/Profile';
 import { addCommentFormReducer } from 'features/addCommentForm/model/slices/addCommentFormSlice';
 import { loginReducer } from 'features/AuthByUsername/model/slice/loginSlice';
 import { ScrollRestorationReducer } from 'features/ScrollRestoration';
-import { articleDetailsCommentsReducer } from 'pages/ArticleDetailsPage/model/slice/ArticleDetailsCommentsSlice';
+import { articleDetailsPageReducer } from 'pages/ArticleDetailsPage/model/slice';
 import { articlesPageReducer } from 'pages/ArticlesPage/model/slices/articlesPageSlice';
 import { ReducersList } from 'shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
 
@@ -15,7 +15,7 @@ const defaultAsyncReducers: ReducersList = {
   scrollRestoration: ScrollRestorationReducer,
   articleDetails: articleDetailsReducer,
   addCommentForm: addCommentFormReducer,
-  articleDetailsComments: articleDetailsCommentsReducer,
+  articlesDetailsPage: articleDetailsPageReducer,
   articlesPage: articlesPageReducer,
 };
 
