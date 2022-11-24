@@ -1,4 +1,5 @@
 {
+  "Production-project": "Production-project",
   "Айти": "IT",
   "Введите username": "Enter your username",
   "Введите пароль": "Enter your password",
@@ -18,6 +19,10 @@
   "Переключить": "Toggle",
   "Поиск": "Search",
   "Произошла непредвиденная ошибка": "An unexpected error has occurred",
+  "Редактирование статьи с id = ": "Editing an article with id = ",
+  "Редактировать": "Edit",
+  "Создание новой статьи": "Creating a new article",
+  "Создать статью": "Create an article",
   "Сортировать ПО": "Sort BY",
   "Статьи не найдены": "No articles found.",
   "Страница не найдена": "Page not found",
