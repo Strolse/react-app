@@ -22,6 +22,7 @@ module.exports = {
     '@typescript-eslint',
     'i18next',
     'react-hooks',
+    'path-verifier',
   ],
   rules: {
     'react/jsx-indent': [2, 2],
@@ -56,6 +57,7 @@ module.exports = {
     'no-param-reassign': 'off',
     'no-undef': 'off',
     'react/no-array-index-key': 'off',
+    'path-verifier/path-verifier': 'error',
   },
   globals: {
     __IS_DEV__: true,
