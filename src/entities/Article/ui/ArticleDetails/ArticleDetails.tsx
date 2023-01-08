@@ -10,6 +10,7 @@ import { Text, TextAlign, TextSize } from 'shared/ui/Text/Text';
 import EyeIcon from 'shared/assets/icons/eye-20-20.svg';
 import CalendarIcon from 'shared/assets/icons/calendar-20-20.svg';
 import { Icon } from 'shared/ui/Icon/Icon';
+import { HStack, VStack } from 'shared/ui/Stack';
 import {
   getArticleDetailsData,
   getArticleDetailsError,
@@ -46,7 +47,6 @@ export const ArticleDetails = memo(({ className, id }:ArticleDetailsProps) => {
         <ArticleCodeBlockComponent
           key={block.id}
           block={block}
-          className={cls.block}
         />
       );
     case ArticleBlockType.IMAGE:
@@ -54,7 +54,6 @@ export const ArticleDetails = memo(({ className, id }:ArticleDetailsProps) => {
         <ArticleImageBlockComponent
           key={block.id}
           block={block}
-          className={cls.block}
         />
       );
     case ArticleBlockType.TEXT:
@@ -62,7 +61,6 @@ export const ArticleDetails = memo(({ className, id }:ArticleDetailsProps) => {
         <ArticleTextBlockComponent
           key={block.id}
           block={block}
-          className={cls.block}
         />
       );
     default:
@@ -89,22 +87,18 @@ export const ArticleDetails = memo(({ className, id }:ArticleDetailsProps) => {
         <Skeleton
           width={600}
           height={32}
-          className={cls.title}
         />
         <Skeleton
           width={400}
           height={31}
-          className={cls.skeleton}
         />
         <Skeleton
           width="100%"
           height={230}
-          className={cls.skeleton}
         />
         <Skeleton
           width="100%"
           height={230}
-          className={cls.skeleton}
         />
       </>
     );
@@ -119,23 +113,24 @@ export const ArticleDetails = memo(({ className, id }:ArticleDetailsProps) => {
   } else {
     content = (
       <>
-        <div className={cls.avatarWrapper}>
+        <HStack justify="center" max>
           <Avatar size={200} src={article?.img} className={cls.avatar} />
-        </div>
-        <Text
-          className={cls.title}
-          title={article?.title}
-          text={article?.subtitle}
-          size={TextSize.L}
-        />
-        <div className={cls.articleInfo}>
-          <Icon className={cls.icon} Svg={EyeIcon} />
-          <Text text={String(article?.views)} />
-        </div>
-        <div className={cls.articleInfo}>
-          <Icon className={cls.icon} Svg={CalendarIcon} />
-          <Text text={article?.createdAt} />
-        </div>
+        </HStack>
+        <VStack gap="4" max>
+          <Text
+            title={article?.title}
+            text={article?.subtitle}
+            size={TextSize.L}
+          />
+          <HStack gap="8">
+            <Icon Svg={EyeIcon} />
+            <Text text={String(article?.views)} />
+          </HStack>
+          <HStack gap="8">
+            <Icon Svg={CalendarIcon} />
+            <Text text={article?.createdAt} />
+          </HStack>
+        </VStack>
         {article?.blocks.map(renderBlock)}
       </>
     );
@@ -143,9 +138,9 @@ export const ArticleDetails = memo(({ className, id }:ArticleDetailsProps) => {
 
   return (
     <DynamicModuleLoader reducers={reducers} removeAfterUnmount>
-      <div className={classNames(cls.ArticleDetails, {}, [className])}>
+      <VStack gap="16" className={classNames(cls.ArticleDetails, {}, [className])}>
         {content}
-      </div>
+      </VStack>
     </DynamicModuleLoader>
 
   );
