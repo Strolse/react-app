@@ -87,14 +87,12 @@ export const ProfileCard = memo((props:ProfileCardProps) => {
       <Input
         value={data?.lastname}
         placeholder={t('Ваша фамилия', { ns: 'profile' })}
-        className={cls.input}
         onChange={onChangeLastname}
         readonly={readonly}
       />
       <Input
         value={data?.age}
         placeholder={t('Ваш возраст', { ns: 'profile' })}
-        className={cls.input}
         onChange={onChangeAge}
         readonly={readonly}
       />
@@ -120,13 +118,11 @@ export const ProfileCard = memo((props:ProfileCardProps) => {
         readonly={readonly}
       />
       <CurrencySelect
-        className={cls.input}
         value={data?.currency}
         onChange={onChangeCurrency}
         readonly={readonly}
       />
       <CountrySelect
-        className={cls.input}
         value={data?.country}
         onChange={onChangeCountry}
         readonly={readonly}
