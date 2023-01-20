@@ -6,7 +6,7 @@ import { Article, ArticleBlockType, ArticleType } from 'entities/Article';
 import { ArticleDetailsPageHeader } from './ArticleDetailsPageHeader';
 
 export default {
-  title: 'pages/ArticleDetailsPageHeader',
+  title: 'pages/ArticleDetailsPage/ArticleDetailsPageHeader',
   component: ArticleDetailsPageHeader,
 
   argTypes: {
