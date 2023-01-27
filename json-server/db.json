@@ -800,6 +800,18 @@
       "userId": "1",
       "text": "12",
       "id": "a_0zWDC"
+    },
+    {
+      "articleId": "13",
+      "userId": "1",
+      "text": "super",
+      "id": "raE4n7A"
+    },
+    {
+      "articleId": "13",
+      "userId": "1",
+      "text": "yo",
+      "id": "jjIS1Cd"
     }
   ],
   "users": [
@@ -807,24 +819,29 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": ["ADMIN"],
+      "roles": [
+        "ADMIN"
+      ],
       "avatar": "https://wp-s.ru/wallpapers/12/12/372677389259771/logotip-vzglyad-devushki.jpg"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "roles": ["USER"],
+      "roles": [
+        "USER"
+      ],
       "avatar": "https://bumper-stickers.ru/33977-thickbox_default/chelovechek-v-jeltoy-odejde.jpg"
     },
     {
       "id": "3",
       "username": "manager",
       "password": "123",
-      "roles": ["MANAGER"],
+      "roles": [
+        "MANAGER"
+      ],
       "avatar": "https://bumper-stickers.ru/33977-thickbox_default/chelovechek-v-jeltoy-odejde.jpg"
     }
-
   ],
   "profile": [
     {

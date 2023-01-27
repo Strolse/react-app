@@ -45,7 +45,6 @@ export const ArticleDetailsComments = memo((props:ArticleDetailsCommentsProps) =
         comments={comments}
         isLoading={commentsIsLoading}
       />
-
     </VStack>
   );
 });
