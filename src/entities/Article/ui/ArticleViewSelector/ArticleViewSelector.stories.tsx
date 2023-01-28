@@ -1,7 +1,7 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { ArticleViewSelector } from './ArticleViewSelector';
-import { ArticleView } from '../../model/types/article';
+import { ArticleView } from '../../model/consts/articleConsts';
 
 export default {
   title: 'entities/Article/ArticleViewSelector',

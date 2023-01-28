@@ -1,6 +1,6 @@
 export { getScrollByPath } from './model/selectors/getScrollRestoration';
 
-export {
+export type {
   ScrollRestorationSchema,
 } from './model/types/ScrollRestorationSchema';
 

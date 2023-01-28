@@ -17,8 +17,8 @@ import { getProfileReadonly } from '../../model/selectors/getProfileReadonly/get
 import { getProfileValidateErrors } from '../../model/selectors/getProfileValidateErrors/getProfileValidateErrors';
 import { fetchProfileData } from '../../model/services/fetchProfileData/fetchProfileData';
 import { profileActions, profileReducer } from '../../model/slice/profileSlice';
-import { ValidateProfileError } from '../../model/types/editableProfileCardSchema';
 import { EditableProfilePageHeader } from '../EditableProfilePageHeader/EditableProfilePageHeader';
+import { ValidateProfileError } from '../../model/consts/consts';
 
 const reducers: ReducersList = {
   profile: profileReducer,
