@@ -1,6 +1,5 @@
 import { Popover as HPopover } from '@headlessui/react';
-import { memo, ReactNode } from 'react';
-import { useTranslation } from 'react-i18next';
+import { ReactNode } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { DropDownDirection } from '../../../../types/ui';
 import { mapDirectionClass } from '../../styles/consts';
