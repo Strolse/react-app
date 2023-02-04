@@ -1,5 +1,5 @@
 import React, {
-  ReactNode,
+  ReactNode, useCallback,
 } from 'react';
 import { useModal } from 'shared/hooks/useModal/useModal';
 import { classNames, Mods } from 'shared/lib/classNames/classNames';
