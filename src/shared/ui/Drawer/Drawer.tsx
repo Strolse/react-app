@@ -1,8 +1,8 @@
 import {
   memo, ReactNode, useCallback, useEffect,
 } from 'react';
-import { classNames } from 'shared/lib/classNames/classNames';
-import { useAnimationLibs } from 'shared/lib/components/AnimationProvider';
+import { classNames } from '@/shared/lib/classNames/classNames';
+import { useAnimationLibs } from '@/shared/lib/components/AnimationProvider';
 import { Overlay } from '../Overlay/Overlay';
 import { Portal } from '../Portal/Portal';
 import cls from './Drawer.module.scss';
@@ -76,7 +76,7 @@ export const DrawerContent = memo((props:DrawerProps) => {
   return (
     <Portal>
       <div className={classNames(cls.Drawer, {}, [className])}>
-        <Overlay onClick={close} />
+        <Overlay onClick={() => close()} />
         <Spring.a.div
           className={cls.sheet}
           style={{ display, bottom: `calc(-100vh + ${height - 100}px)`, y }}
