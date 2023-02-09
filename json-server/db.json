@@ -906,5 +906,71 @@
       "username": "user",
       "avatar": "https://bumper-stickers.ru/33977-thickbox_default/chelovechek-v-jeltoy-odejde.jpg"
     }
+  ],
+  "article-ratings": [
+    {
+      "id": "1",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "articleId": "1"
+    },
+    {
+      "id": "2",
+      "rate": 3,
+      "feedback": "Не интересно",
+      "userId": "1",
+      "articleId": "2"
+    },
+    {
+      "id": "3",
+      "rate": 5,
+      "feedback": "Супер",
+      "userId": "1",
+      "articleId": "3"
+    },
+    {
+      "userId": "1",
+      "articleId": "4",
+      "rate": 4,
+      "feedback": "Неплохо",
+      "id": "x2ptaPN"
+    },
+    {
+      "userId": "1",
+      "articleId": "5",
+      "rate": 2,
+      "feedback": "Ужасно",
+      "id": "8lnrj5-"
+    },
+    {
+      "userId": "1",
+      "articleId": "6",
+      "rate": 5,
+      "feedback": "Замечательно!",
+      "id": "r64EXDW"
+    },
+    {
+      "userId": "1",
+      "articleId": "13",
+      "rate": 4,
+      "id": "HiPuXWi"
+    }
+  ],
+  "profile-ratings": [
+    {
+      "id": "1",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "profileId": "1"
+    },
+    {
+      "id": "2",
+      "rate": 3,
+      "feedback": "Не интересно",
+      "userId": "1",
+      "profileId": "2"
+    }
   ]
 }
