@@ -16,6 +16,10 @@ export default ({ config }: { config: webpack.Configuration }) => {
 
   config.resolve!.modules!.push(paths.src);
   config.resolve!.extensions!.push('.tx', '.tsx');
+  config!.resolve!.alias = {
+    ...config!.resolve!.alias,
+    '@': paths.src,
+  };
 
   const rules = config.module!.rules as RuleSetRule[];
   // eslint-disable-next-line no-param-reassign
@@ -37,7 +41,6 @@ export default ({ config }: { config: webpack.Configuration }) => {
     path.resolve(__dirname, '../../src'),
     'node_modules',
   ];
-  config!.resolve!.alias = { '@': path.resolve(__dirname, '..', '..', 'src') };
 
   return config;
 };

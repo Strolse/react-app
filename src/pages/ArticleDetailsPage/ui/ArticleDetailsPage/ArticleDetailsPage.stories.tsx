@@ -4,6 +4,8 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { Article, ArticleBlockType, ArticleType } from '@/entities/Article';
 import { StoreDecorator } from '@/shared/config/storybook/StoreDecorator/StoreDecorator';
 import ArticleDetailsPage from './ArticleDetailsPage';
+import { ThemeDecorator } from '@/shared/config/storybook/ThemeDecorator/ThemeDecorator';
+import { Theme } from '@/app/providers/ThemeProvider';
 
 export default {
   title: 'pages/ArticleDetailsPage/ArticleDetailsPage',
@@ -90,11 +92,37 @@ const article: Article = {
   ],
 };
 
-export const Primary = Template.bind({});
-Primary.args = {
+export const Light = Template.bind({});
+Light.args = {
 };
-Primary.decorators = [StoreDecorator({
-  articleDetails: {
-    data: article,
-  },
-})];
+Light.decorators = [
+  StoreDecorator({
+    articleDetails: {
+      data: article,
+    },
+  }),
+];
+
+export const Dark = Template.bind({});
+Dark.args = {
+};
+Dark.decorators = [
+  StoreDecorator({
+    articleDetails: {
+      data: article,
+    },
+  }),
+  ThemeDecorator(Theme.DARK),
+];
+
+export const Green = Template.bind({});
+Green.args = {
+};
+Green.decorators = [
+  StoreDecorator({
+    articleDetails: {
+      data: article,
+    },
+  }),
+  ThemeDecorator(Theme.GREEN),
+];
